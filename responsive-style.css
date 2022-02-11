@@ -1,0 +1,133 @@
+/* Media Query forvSmal Mobile Devices */
+@media (max-width: 350px) {
+  body {
+    margin: 10px;
+  }
+  .main-category {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+  .title h1 {
+    margin: 20px 0;
+    display: flex;
+    flex-flow: column;
+    font-size: 1rem;
+  }
+  .main-category img {
+    width: 100px;
+  }
+  .main-category span {
+    text-align: center;
+    font-size: 0.7rem;
+  }
+  .local-category {
+    grid-column-end: 3;
+  }
+  .digital-category,
+  .tool-category,
+  .dress-category,
+  .toy-category,
+  .super-market-category,
+  .health-category,
+  .kitchen-category,
+  .book-category,
+  .trip-category,
+  .local-category {
+    margin: 20px 0px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+/* Media Query for Mobile Devices */
+@media (min-width: 350px) and (max-width: 767px) {
+  body {
+    margin: 10px;
+  }
+  .main-category {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+  .title h1 {
+    margin: 20px 0;
+    display: flex;
+    flex-flow: column;
+    font-size: 1.5rem;
+  }
+  .main-category img {
+    width: 100px;
+  }
+  .main-category span {
+    text-align: center;
+    font-size: 0.75rem;
+  }
+  .local-category {
+    grid-column-end: 3;
+  }
+  .digital-category,
+  .tool-category,
+  .dress-category,
+  .toy-category,
+  .super-market-category,
+  .health-category,
+  .kitchen-category,
+  .book-category,
+  .trip-category,
+  .local-category {
+    margin: 20px 0px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    margin: 10px;
+  }
+  .main-category {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+  .title h1 {
+    margin: 20px 0;
+    display: flex;
+    flex-flow: column;
+    font-size: 1.75rem;
+  }
+  .main-category img {
+    width: 100px;
+  }
+  .main-category span {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .local-category {
+    grid-column-end: 4;
+  }
+  .trip-category {
+    grid-column-end: 3;
+  }
+  .digital-category,
+  .tool-category,
+  .dress-category,
+  .toy-category,
+  .super-market-category,
+  .health-category,
+  .kitchen-category,
+  .book-category,
+  .trip-category,
+  .local-category {
+    margin: 20px 0px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
